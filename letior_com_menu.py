@@ -28,7 +28,14 @@ while True:
         continue
     if opcao == 1:
         while True:
-            numero = int(input("digite um numero:"))
+            try:
+                numero = int(input("digite um numero:"))
+            except ValueError:
+                print("_______________________")
+                print("digite um numero valido")
+                print("_______________________")
+                limite -= 1
+                continue
             if numero == 0:
 
                 break
