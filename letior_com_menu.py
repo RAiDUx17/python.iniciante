@@ -12,6 +12,7 @@ while True:
         print("_______________________")
         print("limite excedido")
         break
+    print("\nTela de inicio")
     print("_______________________")
     print("1. digitar numeros")
     print("2. mostrar resultados")
