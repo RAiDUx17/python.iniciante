@@ -6,7 +6,6 @@ maior = None
 menor = None
 media = None
 limite = 5
-
 while True:
     if limite == 0:
         print("_______________________")
@@ -30,7 +29,7 @@ while True:
     if opcao == 1:
         while True:
             try:
-                numero = int(input("digite um numero:"))
+                numero = int and float(input("digite um numero:"))
             except ValueError:
                 print("_______________________")
                 print("digite um numero valido")
@@ -75,6 +74,7 @@ while True:
         imp = 0
         maior = None
         menor = None
+        media = None
     elif opcao == 0:
         print("----OBRIGADO POR USAR O PROGRAMA----")
         break
